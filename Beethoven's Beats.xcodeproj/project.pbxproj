@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FC9F4961B34F86000A17B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9F4951B34F86000A17B8A /* main.m */; };
+		6FC9F4991B34F86000A17B8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9F4981B34F86000A17B8A /* AppDelegate.m */; };
+		6FC9F49C1B34F86000A17B8A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9F49B1B34F86000A17B8A /* GameScene.m */; };
+		6FC9F49E1B34F86000A17B8A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9F49D1B34F86000A17B8A /* GameScene.sks */; };
+		6FC9F4A11B34F86000A17B8A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9F4A01B34F86000A17B8A /* GameViewController.m */; };
+		6FC9F4A41B34F86000A17B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9F4A21B34F86000A17B8A /* Main.storyboard */; };
+		6FC9F4A61B34F86000A17B8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9F4A51B34F86000A17B8A /* Images.xcassets */; };
+		6FC9F4A91B34F86000A17B8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC9F4A71B34F86000A17B8A /* LaunchScreen.xib */; };
+		6FC9F4B51B34F86000A17B8A /* Beethoven_s_BeatsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9F4B41B34F86000A17B8A /* Beethoven_s_BeatsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FC9F4AF1B34F86000A17B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FC9F4881B34F86000A17B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC9F48F1B34F86000A17B8A;
+			remoteInfo = "Beethoven's Beats";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FC9F4901B34F86000A17B8A /* Beethoven's Beats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beethoven's Beats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC9F4941B34F86000A17B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC9F4951B34F86000A17B8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FC9F4971B34F86000A17B8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FC9F4981B34F86000A17B8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FC9F49A1B34F86000A17B8A /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		6FC9F49B1B34F86000A17B8A /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		6FC9F49D1B34F86000A17B8A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6FC9F49F1B34F86000A17B8A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6FC9F4A01B34F86000A17B8A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		6FC9F4A31B34F86000A17B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FC9F4A51B34F86000A17B8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FC9F4A81B34F86000A17B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6FC9F4AE1B34F86000A17B8A /* Beethoven's BeatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beethoven's BeatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC9F4B31B34F86000A17B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC9F4B41B34F86000A17B8A /* Beethoven_s_BeatsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beethoven_s_BeatsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FC9F48D1B34F86000A17B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC9F4AB1B34F86000A17B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FC9F4871B34F86000A17B8A = {
+			isa = PBXGroup;
+			children = (
+				6FC9F4921B34F86000A17B8A /* Beethoven's Beats */,
+				6FC9F4B11B34F86000A17B8A /* Beethoven's BeatsTests */,
+				6FC9F4911B34F86000A17B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FC9F4911B34F86000A17B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9F4901B34F86000A17B8A /* Beethoven's Beats.app */,
+				6FC9F4AE1B34F86000A17B8A /* Beethoven's BeatsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FC9F4921B34F86000A17B8A /* Beethoven's Beats */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9F4971B34F86000A17B8A /* AppDelegate.h */,
+				6FC9F4981B34F86000A17B8A /* AppDelegate.m */,
+				6FC9F49A1B34F86000A17B8A /* GameScene.h */,
+				6FC9F49B1B34F86000A17B8A /* GameScene.m */,
+				6FC9F49D1B34F86000A17B8A /* GameScene.sks */,
+				6FC9F49F1B34F86000A17B8A /* GameViewController.h */,
+				6FC9F4A01B34F86000A17B8A /* GameViewController.m */,
+				6FC9F4A21B34F86000A17B8A /* Main.storyboard */,
+				6FC9F4A51B34F86000A17B8A /* Images.xcassets */,
+				6FC9F4A71B34F86000A17B8A /* LaunchScreen.xib */,
+				6FC9F4931B34F86000A17B8A /* Supporting Files */,
+			);
+			path = "Beethoven's Beats";
+			sourceTree = "<group>";
+		};
+		6FC9F4931B34F86000A17B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9F4941B34F86000A17B8A /* Info.plist */,
+				6FC9F4951B34F86000A17B8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FC9F4B11B34F86000A17B8A /* Beethoven's BeatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9F4B41B34F86000A17B8A /* Beethoven_s_BeatsTests.m */,
+				6FC9F4B21B34F86000A17B8A /* Supporting Files */,
+			);
+			path = "Beethoven's BeatsTests";
+			sourceTree = "<group>";
+		};
+		6FC9F4B21B34F86000A17B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9F4B31B34F86000A17B8A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FC9F48F1B34F86000A17B8A /* Beethoven's Beats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC9F4B81B34F86000A17B8A /* Build configuration list for PBXNativeTarget "Beethoven's Beats" */;
+			buildPhases = (
+				6FC9F48C1B34F86000A17B8A /* Sources */,
+				6FC9F48D1B34F86000A17B8A /* Frameworks */,
+				6FC9F48E1B34F86000A17B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beethoven's Beats";
+			productName = "Beethoven's Beats";
+			productReference = 6FC9F4901B34F86000A17B8A /* Beethoven's Beats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FC9F4AD1B34F86000A17B8A /* Beethoven's BeatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FC9F4BB1B34F86000A17B8A /* Build configuration list for PBXNativeTarget "Beethoven's BeatsTests" */;
+			buildPhases = (
+				6FC9F4AA1B34F86000A17B8A /* Sources */,
+				6FC9F4AB1B34F86000A17B8A /* Frameworks */,
+				6FC9F4AC1B34F86000A17B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FC9F4B01B34F86000A17B8A /* PBXTargetDependency */,
+			);
+			name = "Beethoven's BeatsTests";
+			productName = "Beethoven's BeatsTests";
+			productReference = 6FC9F4AE1B34F86000A17B8A /* Beethoven's BeatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FC9F4881B34F86000A17B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Wesley McCloy";
+				TargetAttributes = {
+					6FC9F48F1B34F86000A17B8A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6FC9F4AD1B34F86000A17B8A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6FC9F48F1B34F86000A17B8A;
+					};
+				};
+			};
+			buildConfigurationList = 6FC9F48B1B34F86000A17B8A /* Build configuration list for PBXProject "Beethoven's Beats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FC9F4871B34F86000A17B8A;
+			productRefGroup = 6FC9F4911B34F86000A17B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FC9F48F1B34F86000A17B8A /* Beethoven's Beats */,
+				6FC9F4AD1B34F86000A17B8A /* Beethoven's BeatsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FC9F48E1B34F86000A17B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC9F4A91B34F86000A17B8A /* LaunchScreen.xib in Resources */,
+				6FC9F4A61B34F86000A17B8A /* Images.xcassets in Resources */,
+				6FC9F49E1B34F86000A17B8A /* GameScene.sks in Resources */,
+				6FC9F4A41B34F86000A17B8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC9F4AC1B34F86000A17B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FC9F48C1B34F86000A17B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC9F4A11B34F86000A17B8A /* GameViewController.m in Sources */,
+				6FC9F4991B34F86000A17B8A /* AppDelegate.m in Sources */,
+				6FC9F49C1B34F86000A17B8A /* GameScene.m in Sources */,
+				6FC9F4961B34F86000A17B8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC9F4AA1B34F86000A17B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC9F4B51B34F86000A17B8A /* Beethoven_s_BeatsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FC9F4B01B34F86000A17B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FC9F48F1B34F86000A17B8A /* Beethoven's Beats */;
+			targetProxy = 6FC9F4AF1B34F86000A17B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FC9F4A21B34F86000A17B8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FC9F4A31B34F86000A17B8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FC9F4A71B34F86000A17B8A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FC9F4A81B34F86000A17B8A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FC9F4B61B34F86000A17B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FC9F4B71B34F86000A17B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FC9F4B91B34F86000A17B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Beethoven's Beats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FC9F4BA1B34F86000A17B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Beethoven's Beats/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6FC9F4BC1B34F86000A17B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beethoven's BeatsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beethoven's Beats.app/Beethoven's Beats";
+			};
+			name = Debug;
+		};
+		6FC9F4BD1B34F86000A17B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beethoven's BeatsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beethoven's Beats.app/Beethoven's Beats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FC9F48B1B34F86000A17B8A /* Build configuration list for PBXProject "Beethoven's Beats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC9F4B61B34F86000A17B8A /* Debug */,
+				6FC9F4B71B34F86000A17B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FC9F4B81B34F86000A17B8A /* Build configuration list for PBXNativeTarget "Beethoven's Beats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC9F4B91B34F86000A17B8A /* Debug */,
+				6FC9F4BA1B34F86000A17B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FC9F4BB1B34F86000A17B8A /* Build configuration list for PBXNativeTarget "Beethoven's BeatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC9F4BC1B34F86000A17B8A /* Debug */,
+				6FC9F4BD1B34F86000A17B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FC9F4881B34F86000A17B8A /* Project object */;
+}
