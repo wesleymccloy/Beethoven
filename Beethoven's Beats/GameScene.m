@@ -15,6 +15,7 @@
 @property (nonatomic, strong) AVAudioPlayer *player;
 @property (nonatomic, strong) NSArray *audioMetadata;
 @property (nonatomic) int count;
+@property (nonatomic) int score;
 @property (nonatomic, strong) BeethovenSprite *beethoven;
 @property (nonatomic, strong) NSMutableArray *plebsUp;
 @property (nonatomic, strong) NSMutableArray *plebsDown;
@@ -83,7 +84,7 @@
         case UISwipeGestureRecognizerDirectionDown:
             NSLog(@"swipe gesture down");
             for (PlebSprite *pleb in self.plebsDown){
-                [pleb removeFromParent];
+                [pleb die];
                 NSLog(@"killed Pleb");
             }
             [self.plebsDown removeAllObjects];
@@ -91,7 +92,7 @@
         case UISwipeGestureRecognizerDirectionUp:
             NSLog(@"swipe gesture up");
             for (PlebSprite *pleb in self.plebsUp){
-                [pleb removeFromParent];
+                [pleb die];
                  NSLog(@"killed Pleb");
             }
             [self.plebsUp removeAllObjects];
@@ -99,7 +100,7 @@
         case UISwipeGestureRecognizerDirectionLeft:
             NSLog(@"swipe gesture left");
             for (PlebSprite *pleb in self.plebsLeft){
-                [pleb removeFromParent];
+                [pleb die];
                  NSLog(@"killed Pleb");
             }
             [self.plebsLeft removeAllObjects];
@@ -107,7 +108,7 @@
         default:
             NSLog(@"swipe gesture right");
             for (PlebSprite *pleb in self.plebsRight){
-                [pleb removeFromParent];
+                [pleb die];
                  NSLog(@"killed Pleb");
             }
             [self.plebsRight removeAllObjects];
@@ -157,9 +158,7 @@
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     for (UITouch *touch in touches) {
-        if ([touch tapCount] == 1) {
                 [self spawnPlebAtIndex:arc4random()%4];
-        }
     }
 }
 
@@ -186,7 +185,7 @@
     
     SKAction *action = [SKAction moveTo:CGPointMake(CGRectGetMidX(self.frame),
                                                     CGRectGetMidY(self.frame))
-                               duration:5];
+                               duration:2];
     void (^arrived)(void) = ^void(void) {
         SKAction *actionDone = [SKAction removeFromParent];
         [self.beethoven die];

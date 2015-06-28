@@ -14,4 +14,5 @@
 
 +(instancetype)initWithStartIndex:(int)start;
 +(uint32_t)category;
+-(void)die;
 @end

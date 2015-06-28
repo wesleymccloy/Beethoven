@@ -38,6 +38,33 @@
     return sprite;
 }
 
+-(void)die
+{
+    CGFloat x;
+    CGFloat y;
+    switch (self.startIndex) {
+        case 0:
+            x = arc4random() % 5 * arc4random() % 2 ? 1.0 : -1.0;
+            y = arc4random() % 5 * -1.0;
+            break;
+        case 1:
+            x = arc4random() % 5;
+            y = arc4random() % 5 * arc4random() % 2 ? 1.0 : -1.0;
+            break;
+        case 2:
+            x = arc4random() % 5 * arc4random() % 2 ? 1.0 : -1.0;
+            y = arc4random() % 5;
+            break;
+        default:
+            x = arc4random() % 5 * -1.0;
+            y = arc4random() % 5 * arc4random() % 2 ? 1.0 : -1.0;
+            break;
+    }
+    [self removeAllActions];
+    [self.physicsBody applyImpulse:CGVectorMake(x * 10.0, y * 10.0)];
+    //TODO remove sprite from parent
+}
+
 +(uint32_t)category
 {
     return 0x1 << 1;
