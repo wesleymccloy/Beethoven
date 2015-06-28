@@ -8,6 +8,5 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface GameScene : SKScene
-@property (nonatomic,getter=isAlive) BOOL alive;
+@interface GameScene : SKScene <SKPhysicsContactDelegate>
 @end

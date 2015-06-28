@@ -16,4 +16,5 @@
 +(instancetype)initAtRest;
 -(void)resetTexture;
 -(void)die;
++(uint32_t)category;
 @end

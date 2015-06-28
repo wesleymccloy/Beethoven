@@ -8,9 +8,10 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface PlebSprite : SKSpriteNode
+@interface PlebSprite : SKSpriteNode 
 @property (nonatomic, strong) NSArray *plebTextures;
 @property (nonatomic) int startIndex;
 
 +(instancetype)initWithStartIndex:(int)start;
++(uint32_t)category;
 @end

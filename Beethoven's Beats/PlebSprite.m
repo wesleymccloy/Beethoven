@@ -7,6 +7,7 @@
 //
 
 #import "PlebSprite.h"
+#import "BeethovenSprite.h"
 
 @implementation PlebSprite
 
@@ -16,13 +17,13 @@
     PlebSprite *sprite = [[PlebSprite alloc] initWithTexture:textures[0]];
     if (start == 0) {
         [sprite setTexture:textures[2]];
-        NSLog(@"created pleb at top");
+        NSLog(@"created pleb at bottom");
     } else if (start == 1) {
         [sprite setTexture:textures[3]];
         NSLog(@"created pleb at right");
     } else if (start == 2) {
         [sprite setTexture:textures[1]];
-        NSLog(@"created pleb at bottom");
+        NSLog(@"created pleb at top");
     } else {
         [sprite setTexture:textures[3]];
         NSLog(@"created pleb at left");
@@ -30,7 +31,16 @@
     }
     if (!sprite) return nil;
     sprite.startIndex = start;
+    sprite.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:sprite.size];
+    sprite.physicsBody.categoryBitMask = [PlebSprite category];
+    sprite.physicsBody.contactTestBitMask = [BeethovenSprite category];
+    sprite.physicsBody.collisionBitMask = 0;
     return sprite;
+}
+
++(uint32_t)category
+{
+    return 0x1 << 1;
 }
 
 +(NSArray*)plebTextures

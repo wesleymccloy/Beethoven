@@ -7,15 +7,26 @@
 //
 
 #import "BeethovenSprite.h"
+#import "PlebSprite.h"
 
 @implementation BeethovenSprite
 
 +(instancetype)initAtRest
 {
     NSArray *textures = [self beethovenTextures];
-    return [[BeethovenSprite alloc] initWithTexture:textures[0]];
+    BeethovenSprite *sprite = [[BeethovenSprite alloc] initWithTexture:textures[0]];
+    sprite.beethovenTextures = textures;
+    sprite.alive = YES;
+    sprite.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:sprite.size];
+    sprite.physicsBody.categoryBitMask = [BeethovenSprite category];
+    sprite.physicsBody.contactTestBitMask = [PlebSprite category];
+    sprite.physicsBody.collisionBitMask = 0;
+    return sprite;
 }
-
++(uint32_t)category
+{
+    return 0x1;
+}
 +(NSArray *)beethovenTextures
 {
     SKTextureAtlas *atlas = [SKTextureAtlas atlasNamed:@"BeethovenAtlas"];
@@ -35,6 +46,6 @@
 -(void)die
 {
     self.alive = NO;
-    [self setTexture:[self beethovenTextures][4]];
+    [self setTexture:self.beethovenTextures[4]];
 }
 @end
