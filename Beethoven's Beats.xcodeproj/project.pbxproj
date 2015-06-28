@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F3A4B5A1B3F3FBE003CB57A /* PlebAtlas.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A4B591B3F3FBE003CB57A /* PlebAtlas.atlas */; };
+		6F3A4B5E1B3F3FF9003CB57A /* BeethovenAtlas.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A4B5D1B3F3FF9003CB57A /* BeethovenAtlas.atlas */; };
+		6F3A4B611B3F80A3003CB57A /* PlebSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A4B601B3F80A3003CB57A /* PlebSprite.m */; };
+		6F3A4B641B3F99F7003CB57A /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F3A4B631B3F99F7003CB57A /* song.mp3 */; };
+		6F3A4B671B3FA863003CB57A /* BeethovenSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A4B661B3FA863003CB57A /* BeethovenSprite.m */; };
 		6FC9F4961B34F86000A17B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9F4951B34F86000A17B8A /* main.m */; };
 		6FC9F4991B34F86000A17B8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9F4981B34F86000A17B8A /* AppDelegate.m */; };
 		6FC9F49C1B34F86000A17B8A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9F49B1B34F86000A17B8A /* GameScene.m */; };
@@ -29,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F3A4B591B3F3FBE003CB57A /* PlebAtlas.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlebAtlas.atlas; sourceTree = "<group>"; };
+		6F3A4B5D1B3F3FF9003CB57A /* BeethovenAtlas.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BeethovenAtlas.atlas; sourceTree = "<group>"; };
+		6F3A4B5F1B3F80A3003CB57A /* PlebSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlebSprite.h; sourceTree = "<group>"; };
+		6F3A4B601B3F80A3003CB57A /* PlebSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlebSprite.m; sourceTree = "<group>"; };
+		6F3A4B631B3F99F7003CB57A /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		6F3A4B651B3FA863003CB57A /* BeethovenSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeethovenSprite.h; sourceTree = "<group>"; };
+		6F3A4B661B3FA863003CB57A /* BeethovenSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeethovenSprite.m; sourceTree = "<group>"; };
 		6FC9F4901B34F86000A17B8A /* Beethoven's Beats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beethoven's Beats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC9F4941B34F86000A17B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC9F4951B34F86000A17B8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F3A4B621B3F99F7003CB57A /* Music Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F3A4B631B3F99F7003CB57A /* song.mp3 */,
+			);
+			path = "Music Resources";
+			sourceTree = "<group>";
+		};
 		6FC9F4871B34F86000A17B8A = {
 			isa = PBXGroup;
 			children = (
@@ -90,12 +110,19 @@
 				6FC9F4981B34F86000A17B8A /* AppDelegate.m */,
 				6FC9F49A1B34F86000A17B8A /* GameScene.h */,
 				6FC9F49B1B34F86000A17B8A /* GameScene.m */,
+				6F3A4B5F1B3F80A3003CB57A /* PlebSprite.h */,
+				6F3A4B601B3F80A3003CB57A /* PlebSprite.m */,
+				6F3A4B651B3FA863003CB57A /* BeethovenSprite.h */,
+				6F3A4B661B3FA863003CB57A /* BeethovenSprite.m */,
 				6FC9F49D1B34F86000A17B8A /* GameScene.sks */,
 				6FC9F49F1B34F86000A17B8A /* GameViewController.h */,
 				6FC9F4A01B34F86000A17B8A /* GameViewController.m */,
 				6FC9F4A21B34F86000A17B8A /* Main.storyboard */,
 				6FC9F4A51B34F86000A17B8A /* Images.xcassets */,
 				6FC9F4A71B34F86000A17B8A /* LaunchScreen.xib */,
+				6F3A4B621B3F99F7003CB57A /* Music Resources */,
+				6F3A4B5D1B3F3FF9003CB57A /* BeethovenAtlas.atlas */,
+				6F3A4B591B3F3FBE003CB57A /* PlebAtlas.atlas */,
 				6FC9F4931B34F86000A17B8A /* Supporting Files */,
 			);
 			path = "Beethoven's Beats";
@@ -176,6 +203,7 @@
 				TargetAttributes = {
 					6FC9F48F1B34F86000A17B8A = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 852E4Q768Z;
 					};
 					6FC9F4AD1B34F86000A17B8A = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -208,8 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FC9F4A91B34F86000A17B8A /* LaunchScreen.xib in Resources */,
+				6F3A4B5A1B3F3FBE003CB57A /* PlebAtlas.atlas in Resources */,
 				6FC9F4A61B34F86000A17B8A /* Images.xcassets in Resources */,
+				6F3A4B641B3F99F7003CB57A /* song.mp3 in Resources */,
 				6FC9F49E1B34F86000A17B8A /* GameScene.sks in Resources */,
+				6F3A4B5E1B3F3FF9003CB57A /* BeethovenAtlas.atlas in Resources */,
 				6FC9F4A41B34F86000A17B8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FC9F4A11B34F86000A17B8A /* GameViewController.m in Sources */,
+				6F3A4B671B3FA863003CB57A /* BeethovenSprite.m in Sources */,
 				6FC9F4991B34F86000A17B8A /* AppDelegate.m in Sources */,
+				6F3A4B611B3F80A3003CB57A /* PlebSprite.m in Sources */,
 				6FC9F49C1B34F86000A17B8A /* GameScene.m in Sources */,
 				6FC9F4961B34F86000A17B8A /* main.m in Sources */,
 			);
@@ -359,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Beethoven's Beats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Beethoven's Beats/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +463,7 @@
 				6FC9F4BA1B34F86000A17B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FC9F4BB1B34F86000A17B8A /* Build configuration list for PBXNativeTarget "Beethoven's BeatsTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +472,7 @@
 				6FC9F4BD1B34F86000A17B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
